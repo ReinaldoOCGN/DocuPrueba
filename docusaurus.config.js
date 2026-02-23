@@ -29,6 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ReinaldoOCGN', // Usually your GitHub org/user name.
   projectName: 'DocuPrueba', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'throw',
 
