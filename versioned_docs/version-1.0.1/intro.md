@@ -2,29 +2,37 @@
 slug: /
 sidebar_position: 1
 ---
-# Tutorial Intro
+# Herramientas y Paquetes Utilizados
 ![Logo](./img/logo.png)
 
-Entiende como realicé **MostrarEma en solo 5 minutos**.
+🛠 Herramientas de Desarrollo
 
-## Primer paso
+Visual Studio 2022 (o superior)
 
-comencemos abriendo el codigo de **MostrarEma**.
+.NET 6 / .NET 7
 
-O **descarguelo gratis** en github **[MostrarEma.github](https://github.com/ReinaldoOCGN/MostrarEma)**.
+SQL Server
 
-### Lo que Necesitarás
+SQL Server Management Studio (SSMS)
 
-- [Visual Studio](https://visualstudio.microsoft.com/es/vs/community/) version 2022 o superior:
-  - Cuando instale Visual, abra la carpeta descargada.
+📦 Paquetes NuGet Utilizados
 
-```bash
-cd my-website
-npm run start
+A continuación, se detallan los paquetes necesarios para el correcto funcionamiento del proyecto:
+
+1. Razor.RuntimeCompilation
+
+Permite la  compatibilidad con compilación en tiempo de ejecución para vistas Razor y páginas Razor en ASP.NET Core MVC.
+
+```cmd
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 ```
 
-El comando `cd` cambia el directorio de trabajo. Para trabajar con su carpeta descargada, debera navegar por la terminal hasta la ruta
+2. System.Data.SqlClient
 
-El comando `npm run start` crea su sitio web localmente y lo sirve a traves de un servidor de desarrollo, listo para que lo visualice en http://localhost:3000/.
+Permite la conexión directa con SQL Server mediante ADO.NET (en este proyecto se utiliza este enfoque).
 
-Abra `Views/Home/Index` y agregue una linea de codigo, se actualizara al recargar la pagina.
+```cmd
+System.Data.SqlClient
+```
+
+Nota: En este proyecto se utiliza ADO.NET, no Entity Framework, por lo tanto, el paquete estrictamente necesario es System.Data.SqlClient.

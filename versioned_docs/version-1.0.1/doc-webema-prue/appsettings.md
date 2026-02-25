@@ -21,4 +21,4 @@ Esta sección mostrará la cadena de conexión configurada en el appsettings
   "AllowedHosts": "*"
 }
 ```
-Esta cadena de conexión se conecta a la base de datos de prueba de Basges.
+Esta cadena de conexión permite conectarse a la base de datos de pruebas **Basges**.
