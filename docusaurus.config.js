@@ -23,7 +23,7 @@ const config = {
   url: 'https://ReinaldoOCGN.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/DocuPrueba',
+  baseUrl: '/Documentacion/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,8 +37,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -116,7 +116,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentos',
             items: [
               {
                 label: 'Documentación',
@@ -125,7 +125,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidad',
             items: [
               {
                 label: 'Stack Overflow',
@@ -142,7 +142,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
               /*{
                 label: 'Blog',
@@ -155,7 +155,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tu papi Reinaldo, Inc. Todos los derechos reservados.`,
       },
       prism: {
         theme: prismThemes.github,

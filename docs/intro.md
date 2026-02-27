@@ -5,21 +5,21 @@ sidebar_position: 0
 # Herramientas y Paquetes Utilizados
 ![Logo](./img/logo.png)
 
-🛠 Herramientas de Desarrollo
+## 🛠 Herramientas de Desarrollo
 
-Visual Studio 2022 (o superior)
+[Visual Studio community](https://visualstudio.microsoft.com/es/vs/community/) version 2022 (o superior)
 
-.NET 6 / .NET 7
+.NET 6.0 / .NET 8.0
 
-SQL Server
+#### SQL Server
 
-SQL Server Management Studio (SSMS)
+[SQL Server Management Studio](https://learn.microsoft.com/es-es/ssms/install/install) (SSMS)
 
-📦 Paquetes NuGet Utilizados
+## 📦 Paquetes NuGet Utilizados
 
 A continuación, se detallan los paquetes necesarios para el correcto funcionamiento del proyecto:
 
-1. Razor.RuntimeCompilation
+#### 1. Razor.RuntimeCompilation
 
 Permite la  compatibilidad con compilación en tiempo de ejecución para vistas Razor y páginas Razor en ASP.NET Core MVC.
 
@@ -27,7 +27,7 @@ Permite la  compatibilidad con compilación en tiempo de ejecución para vistas 
 Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 ```
 
-2. System.Data.SqlClient
+#### 2.  System.Data.SqlClient
 
 Permite la conexión directa con SQL Server mediante ADO.NET (en este proyecto se utiliza este enfoque).
 
